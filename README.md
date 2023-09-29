@@ -9,7 +9,8 @@
 
 2. then the server reply with the unique id assigned for that job and insert that id in Map that contain job not yet finished . 
 
-3. the server after each 3 second it increase all job progress by 10% then if a job progress reached 100% it gonna be removed from not yet finished and will be added  to Map of the completed Jobs .  
+3. the server after each 3 second it increase all job progress by 10% then if a job progress reached 100% it gonna be removed
+   from not yet finished and will be added  to Map of the completed Jobs .  
 
 4. user can use the id return by the server to check the progress of the given Job through the endPoint /checkJobStatus
 
